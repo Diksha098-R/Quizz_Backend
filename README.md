@@ -5,17 +5,34 @@ This project is built to serve as a backend support for Quiz app.
 
 ### Setup process:
 Follow these steps to install & start the Backend server
-```json
-`git clone https://github.com/Diksha098-R/Quizz_Backend.git`
+```
+git clone https://github.com/Diksha098-R/Quizz_Backend.git
 ```
 ```json
-`npm install`
+npm install
 ```
 ```json
-`npm run build`
+npm run build
 ```
 ```json
-`npm start`
+npm start
 ```
 
 These steps should start the backend server on port `3001`.
+
+### Tech stack used:
+- NodeJs
+- Express
+- Typescript
+
+### Apis built:
+- `GET`/list : To get all the questions of the quiz when user clicks on start button
+- `POST`/question : To save the response of the user
+- `GET`/score : To get the calculated result of the quiz.
+
+PS: `POST`/question is the only one which is dummy, since there was no data layer added. Others are all working live.
+
+### Score calculation:
+```
+(Total correct answers/Total questions)/100
+```
