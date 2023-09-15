@@ -3,6 +3,9 @@ Backend for quizz app
 
 This project is built to serve as a backend support for Quiz app. It stores the questions which will be served on the client request.
 
+### Prerequisites:
+- NodeJs v18 installed
+
 ### Setup process:
 Follow these steps to install & start the Backend server
 ```
@@ -21,7 +24,7 @@ npm run build
 npm start
 ```
 
-These steps should start the backend server on port `3001`.
+Wohoo!!! Server should be up on port `3001`.
 
 ### Tech stack used:
 - NodeJs
