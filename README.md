@@ -1,7 +1,7 @@
 # Quizz_Backend
 Backend for quizz app
 
-This project is built to serve as a backend support for Quiz app. 
+This project is built to serve as a backend support for Quiz app. It stores the questions which will be served on the client request.
 
 ### Setup process:
 Follow these steps to install & start the Backend server
