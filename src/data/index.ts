@@ -37,32 +37,6 @@ export const QUESTIONS = [
         },
         {
             "id": "2",
-            "options": [
-            "A penalty kick",
-            "The story of how the scandal of child molestation within the Boston Catholic church was uncovered.",
-                "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler.",
-                "When a heist goes wrong, the surviving criminals suspect that one of them is a police informant.",
-                "A secretary checks into a remote motel run by a young man under the domination of his mother.",
-            ],
-            "correctAnswer": ["A secretary checks into a remote motel run by a young man under the domination of his mother.",
-                "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler.",
-                ],
-            "incorrectAnswers": [
-                "The story of how the scandal of child molestation within the Boston Catholic church was uncovered.",
-                "When a heist goes wrong, the surviving criminals suspect that one of them is a police informant.",
-            ],
-            "question": {
-                "text": "What is the plot of the movie Psycho?"
-            },
-            "tags": [
-                "film",
-                "film_and_tv"
-            ],
-            "regions": [],
-            "isNiche": false
-        },
-        {
-            "id": "622a1c3c7cc59eab6f951abb",
             "correctAnswer": ["Bram Stoker","Jane Austen"],
             "incorrectAnswers": [
                 "Mary Shelley",
@@ -85,7 +59,7 @@ export const QUESTIONS = [
             "isNiche": false
         },
         {
-            "id": "637162881bf863c45ca6c383",
+            "id": "3",
             "correctAnswer": ["Nothing is arduous for the willing"],
             "incorrectAnswers": [
                 "Let them hate so long as they fear",
@@ -111,7 +85,7 @@ export const QUESTIONS = [
             "isNiche": false
         },
         {
-            "id": "625e9fb9796f721e95543fb2",
+            "id": "4",
             "correctAnswer": ["Red"],
             "incorrectAnswers": [
                 "Yellow",
@@ -135,7 +109,7 @@ export const QUESTIONS = [
             "isNiche": false
         },
         {
-            "id": "622a1c3c7cc59eab6f951a51",
+            "id": "5",
             "correctAnswer": ["Easter"],
             "incorrectAnswers": [
                 "Christmas",
@@ -158,7 +132,7 @@ export const QUESTIONS = [
             "isNiche": false
         },
         {
-            "id": "645c9f8742ea81e2554c5f3e",
+            "id": "6",
             "correctAnswer": ["Heart of Darkness"],
             "incorrectAnswers": [
                 "House of Dreams",
@@ -183,7 +157,7 @@ export const QUESTIONS = [
             "isNiche": false
         },
         {
-            "id": "622a1c3e7cc59eab6f952270",
+            "id": "7",
             "correctAnswer": ["Modulate Demodulate"],
             "incorrectAnswers": [
                 "Modern Demograph",
@@ -210,7 +184,7 @@ export const QUESTIONS = [
             "isNiche": false
         },
         {
-            "id": "622a1c397cc59eab6f950db5",
+            "id": "8",
             "correctAnswer": ["The Rolling Stones"],
             "incorrectAnswers": [
                 "McFly",
@@ -233,7 +207,7 @@ export const QUESTIONS = [
             "isNiche": false
         },
         {
-            "id": "64824e707778562fd76a964e",
+            "id": "9",
             "correctAnswer": ["Guys and Dolls"],
             "incorrectAnswers": [
                 "Grease",
