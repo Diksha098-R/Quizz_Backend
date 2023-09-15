@@ -8,13 +8,13 @@ Follow these steps to install & start the Backend server
 ```
 git clone https://github.com/Diksha098-R/Quizz_Backend.git
 ```
-```json
+```
 npm install
 ```
-```json
+```
 npm run build
 ```
-```json
+```
 npm start
 ```
 
