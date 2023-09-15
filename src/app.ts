@@ -1,4 +1,5 @@
-import express, {Application} from 'express';
+import express, { Application } from 'express';
+var cors = require('cors')
 
 export default class App {
   private app: Application;
@@ -14,7 +15,7 @@ export default class App {
 
   private routes(allRoutes: Array<express.Router>) {
     allRoutes.forEach(route => {
-      this.app.use(this.baseUrl, route)
+      this.app.use(cors(this.baseUrl), route)
     });
   }
 

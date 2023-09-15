@@ -1,5 +1,7 @@
-import { Request, Response, json } from 'express';
+import { Request, Response } from 'express';
 import { QUESTIONS } from '../data/index'
+import { ScoreCalculator} from '../data/scoreCalculator'
+import { TQuestions } from '../types/Questions';
 
 export class quizzController {
   private data: Array<Object>;
@@ -8,27 +10,27 @@ export class quizzController {
   }
   public async startQuizz(req: Request, res: Response) {
 
-    // await fetch("https://the-trivia-api.com/v2/questions").then((res) => res.json()).then((response) => {
-    //   console.log({response});
-    //     data = response;
-    // }).catch((error) => {
-    //   console.log({ error }); 
-    // })
-    // console.log({data});
-    
-
     res.status(200).send({
       data: this.data,
     message: 'Your quizz is a success! From controller'
   })
   }
 
-  public getQuestionByNo(req: Request, res: Response) {
+  public saveQuestAns(req: Request, res: Response) {
     res.status(200).send({
       data: {
-        questions: this.data[0],
+        'saved': true
       },
       message: 'success'
     })
   }
+
+  public calculateScore(req: Request, res: Response) {
+    let result = ScoreCalculator(req.body, this.data as Array<TQuestions>);
+    res.status(200).send({
+      data: {...result},
+      message: 'success'
+    })
+  }
+  
 }
